@@ -35,3 +35,11 @@ git clone https://github.com/SadNarwhal27/ExcelReportCreator.git
 ### Creating a Virtual Environment
 Follow the steps in this article:
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
+
+## Working with openpyxl and pandas
+Reference this site for openpyxl stuff<br/>
+https://realpython.com/openpyxl-excel-spreadsheets-python/
+
+This site has examples for pusing pandas with excel</br>
+https://pythonbasics.org/read-excel/

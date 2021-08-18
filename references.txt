@@ -1,5 +1,0 @@
-This site should help you get started with openpyxl
-https://realpython.com/openpyxl-excel-spreadsheets-python/
-
-This site has examples for pandas stuff with excel
-https://pythonbasics.org/read-excel/
