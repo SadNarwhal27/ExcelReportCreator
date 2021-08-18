@@ -16,7 +16,7 @@ sheets = load_sheets(workbook, ['Data Table 1', 'Data Table 2', 'Report'])
 
 4. Take the new report and add the data to the Report sheet.
 ```python
-fill_sheets(sheets[3], data)
+fill_sheets(sheets[2], data)
 ```
 
 5. Save the report in a new file found in the Report folder. The new file will have the date the report was created tacked onto the start of the file name.
