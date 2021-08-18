@@ -9,8 +9,9 @@ from pytz import timezone
 def compare_data_by_col(file):
     file += '.xlsx'
     workbook = load_workbook(file)
-    sheets = load_sheets(workbook,
-                         ['Data Table 1', 'Data Table 2', 'Answer 1'])
+    create_sheet(workbook, 'Report')
+
+    sheets = load_sheets(workbook,['Data Table 1', 'Data Table 2', 'Answer 1', 'Report'])
 
     data = []
     check = get_data(sheets[0], 1)
@@ -25,7 +26,9 @@ def compare_data_by_col(file):
                     data.append(row)
                 check.pop(row[2])
 
-    fill_sheets(sheets[2], data)
+    # fill_sheets(sheets[2], data)
+    fill_sheets(sheets[3], data)
+
     save_workbook(workbook, file)
 
 
